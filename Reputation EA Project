@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
+  <diagram name="Page-1" id="TxWpD6kCMWnWhsc4JQQ_">
+    <mxGraphModel dx="549" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MObsHfP4fNPMypAJL4wM-1" value="Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-3" value="&amp;nbsp;&lt;div&gt;+ Item(name : string, qty : int)&amp;nbsp;&lt;div&gt;+ getName() : string&lt;/div&gt;&lt;div&gt;+ getQuantity() : int&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ setQuantity(qty : int) : void&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MObsHfP4fNPMypAJL4wM-4" target="MObsHfP4fNPMypAJL4wM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-4" value="Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-5" value="-&amp;nbsp; items: vector&amp;lt;Item&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-6" value="&lt;div&gt;+ addItem(item : Item) : void&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ removeItem(index : int) : void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ displayItems() : void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MObsHfP4fNPMypAJL4wM-9" target="MObsHfP4fNPMypAJL4wM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-9" value="Player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-10" value="- name : string&lt;div&gt;- score : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="650" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-14" value="+ Player(name : string)&lt;div&gt;+ addScore(points : int) : void&lt;/div&gt;&lt;div&gt;+ getScore() : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MObsHfP4fNPMypAJL4wM-1" target="MObsHfP4fNPMypAJL4wM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="90" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-2" value="- name : string&lt;div&gt;- quantity : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MObsHfP4fNPMypAJL4wM-16" target="MObsHfP4fNPMypAJL4wM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-16" value="ReputationMode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MObsHfP4fNPMypAJL4wM-17" target="MObsHfP4fNPMypAJL4wM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-17" value="- reputation : int&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MObsHfP4fNPMypAJL4wM-18" value="+ increasesRep(points : int) : void&lt;div&gt;+ decreaseRep(points :&amp;nbsp; int) : void&lt;/div&gt;&lt;div&gt;+ getRep() : int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="900" width="120" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
